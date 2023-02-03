@@ -1,0 +1,19 @@
+.container {
+    border: 2px solid red;
+    min-height: 300px;
+    display: flex;
+    /*направление оси */
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    margin: 10px;
+    font-size: 50px; 
+    text-align: center;
+}
