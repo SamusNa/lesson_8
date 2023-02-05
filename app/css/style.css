@@ -54,3 +54,15 @@
 .h250 { 
     /* height: 250px; */
 }
+
+.test-item {
+    order: 2;
+    flex-grow: 2;
+}
+
+.test-item-2 {
+    order: 1;
+    flex-grow: 2;
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+}
