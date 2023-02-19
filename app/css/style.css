@@ -66,3 +66,20 @@
     /* flex-shrink: 2; */
     align-self: flex-end;
 }
+
+.container-2 {
+    border: 1px solid black;
+    margin: 50px;
+    min-height: 100px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-2 {
+    background: orange;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}
